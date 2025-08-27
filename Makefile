@@ -2,7 +2,7 @@
 
 all: 
 	gcc client.c -o client
-	./client 7.tcp.eu.ngrok.io 15455
+	./client 2.tcp.eu.ngrok.io 16713
 
 clean:
 	rm -rf client
